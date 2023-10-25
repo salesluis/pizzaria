@@ -1,4 +1,11 @@
+/* global */
 @import './styles/global/global.css';
 
+/* home */
 @import './styles/home/header/header.css';
+@import './styles/home/itens-pizzas/itens.css';
+@import './styles/home/sobre/sobre.css';
+@import './styles/home/footer/footer.css';
+
+/* componentes */
 @import './styles/components/components.css';

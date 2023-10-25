@@ -1,0 +1,74 @@
+.itens-pizzas h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: var(--text-primary);
+  margin-bottom: 64px;
+}
+
+.itens {
+  display: flex;
+ flex-wrap: wrap;
+ margin: 0 auto;
+ justify-content: center;
+ gap: 32px;
+ margin-bottom: 200px;
+ padding: 0 4%;
+}
+
+.pizza > img {
+  width: fit-content;
+}
+
+.pizza {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  height: 275px;
+  border-radius: 25px;
+  flex-direction: column;
+  background: var(--bg-primary);
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.pizza img{
+  position: absolute;
+  top: -50px;
+
+}
+
+.pizza-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.pizza-info h3{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pizza-info p{
+  color: var(--text-secondary);
+  width: 18ch;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom:20px ;
+}
+
+.pizza-info span{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight:600;
+  color: var(--text-primary);
+  margin-bottom: 18px;
+}
+
+@media(max-width:100px){
+  .itens{
+    grid-template-columns: 1fr 1fr;
+  }
+}

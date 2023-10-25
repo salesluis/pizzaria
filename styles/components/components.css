@@ -1,0 +1,37 @@
+:root{
+  --text-primary:#2E2E2E;
+  --text-secondary:#616161;
+  --bg-primary:#FEF6F4;
+  --button:#FFA200;
+  --hover-button:#DC9300;
+}
+.container{
+  max-width: 1300px;
+}
+
+.botao{
+  display: flex;
+  justify-content:center;
+  text-decoration: none;
+  background: var(--button);
+  color: var(--text-primary);
+  padding: 8px 32px;
+  border-radius: 25px;
+  max-width: max-content;
+}
+
+.botao:hover{
+  background: var(--hover-button);
+}
+
+
+/* nome pizza personalizado */
+.i{
+  color: #FFA200;
+}
+.z{
+  color:#CF3031 ;
+}
+.z2{
+  color: #5C913B;
+}
